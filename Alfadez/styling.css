@@ -1,7 +1,7 @@
 /*Background*/
 body{
     font-family: Arvo, serif;
-    background: url(images/Alfadez%20background2.jpg) no-repeat center center;
+    background: url(images/Alfadezbackground2.jpg) no-repeat center center;
     background-attachment: fixed;
-    background-size: cover; 
+    background-size: cover;
 }
