@@ -1,7 +1,32 @@
 /*Background*/
 body{
     font-family: Arvo, serif;
-    background: url(images/Alfadezbackground2.jpg) no-repeat center center;
+    background: url(Images/Alfadezbackground2.jpg) no-repeat center center;
     background-attachment: fixed;
     background-size: cover;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.content {
+  flex: 1 0 auto;
+}
+.footer {
+  flex: 0 0 auto;
+}
+
+.logo{
+   height: 50px; 
+    
 }
