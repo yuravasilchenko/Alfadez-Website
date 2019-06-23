@@ -29,9 +29,7 @@ body {
   flex-direction: column;
   height: 100%;
 }
-.content {
-  flex: 1 0 auto;
-}
+
 footer{
   margin-top:  ;
   padding: 5px;
@@ -114,6 +112,7 @@ text-align: center
 article,main {
   display: block;
   z-index:1;
+  margin-right: 34px;
 }
 
 table {
@@ -122,10 +121,12 @@ table {
 }
 html,
 body,
-#container {
+ .container {
     height: 100%;}
-.container {
-  padding-bottom: 192px;
+ .container {
+    width: 50px; /* Ширина слоя */
+    margin: 0 auto; /* Выравнивание по центру */
+    background: #f0f0f0; /* Цвет фона левой колонки */
 }
 .Left{
     padding-top: 10px;
@@ -137,4 +138,17 @@ body,
   background: url("Images/Phone.png") no-repeat;
   float: left;
   margin-bottom: 6px;
+}
+.sidebar {
+    margin-top: 10px; 
+    width: 110px; /* Ширина слоя */
+    padding: 0 10px; /* Отступы вокруг текста */
+    float: left; /* Обтекание по правому краю */
+    background-color: aqua;
+   }
+
+.content {
+    margin-left:px ; /* Отступ слева */
+    padding-top: 50px; /* Поля вокруг текста */
+    background: #EBEBEB; /* Цвет фона правой колонки */
 }
