@@ -71,7 +71,7 @@ footer{
 	overflow: hidden;
 }
 
-.grid:after {
+grid:after {
 	content: "";
 	display: table;
 	clear: both;
@@ -109,10 +109,10 @@ text-align: center
   width: 1200px;
   padding: 0 10px;
 }
-article,main {
+/*article,main {
   display: block;
   z-index:1;
-  margin-right: 34px;
+  margin-right: 34px;*/
 }
 
 table {
@@ -123,6 +123,7 @@ html,
 body,
  .container {
     height: 100%;}
+
  .container {
     width: 50px; /* Ширина слоя */
     margin: 0 auto; /* Выравнивание по центру */
@@ -148,7 +149,7 @@ body,
    }
 
 .content {
-    margin-left:px ; /* Отступ слева */
+    margin-left:130px ; /* Отступ слева */
     padding-top: 50px; /* Поля вокруг текста */
     background: #EBEBEB; /* Цвет фона правой колонки */
 }
