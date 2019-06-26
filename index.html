@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ТОВ "АЛЬФАДЕЗ"</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+   	<link href="styling.css" rel="stylesheet">	 
+	<link href="https://fonts.googleapis.com/css?family=Vollkorn&display=swap" rel="stylesheet">
+    <link rel="icon" href="Images/favicon.ico" type="image/x-icon">  
+  </head>
+	
+  <body data-spy="scroll" data-target="#mynavBar">  	
+	<video autoplay loop muted id="bgvideo">
+		  <source src="images/Forest%20-%2018534.mp4" type="video/mp4">
+	</video>
+    
+	<nav role="navigation" class="navbar-custom navbar-fixed-top" id="mynavBar">
+		
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="index.html"> ТОВ "АЛЬФАДЕЗ"</a>
+				
+				<button type="button" class="navbar-toggle" data-target="#navbarCollapse" data-toggle="collapse">
+					
+					<span class="sr-only">Перемикання навігації</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+			<div class="navbar-collapse collapse" id="navbarCollapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active"><a href="#home">Головна</a></li>
+					<li><a href="#about">Про Компанію</a></li>
+                    <li><a href="Contact.html">Контакти</a></li>
+                    <li><a href="services.html">Послуги</a></li>
+					<li><a href="feedback.html">Зворотній зв'язок</a></li>
+				</ul>			
+			</div>
+		</div>  
+	</nav>
+	  
+	<div class="jumbotron" id="home">
+		  <div class="container" id="main">
+		  	  <h1>ТОВ АЛЬФАДЕЗ</h1>
+			   <p>
+          <span style="font-size: 14pt; font-weight: bold;"> Дезінфекційна компанія "АЛЬФАДЕЗ"</span>готова запропонувати Вам повний спектр послуг в сфері дезінфекції, дезінсекції, дератизації. Професійна дезінфекція, знищення будь-яких комах і гризунів це наше першочергове завдання, яке ми вирішуємо кожен день. Допомагаючи тим самим нашим клієнтам знайти спокій, впевненість і безпеку, а головне гарантований результат в боротьбі з непроханими гостями!
+      </p>
+      <p>Основою гарантованих результатів є великий досвід в проведенні заходів з дезінфекції, дезінсекції та дератизації. Високо кваліфіковані дезінфектори, сучасні засоби, професійні препарати, перевірені на сотнях об'єктів і імпортне проф обладнання - ось запорука успіху і гарантія в позбавленні від мікробів, комах і гризунів.</p>
+		  </div>
+        <p></p>
+             <p><a class="btn" href="feedback.html">Зв'яжіться з нами!</a></p>
+	</div>
+	  
+	<div id="about">
+	  <div class="container">
+			<div class="row">
+		  		<div class="col-md-4">
+					<img src="images/bugs.png" class="aboutImage">
+					<h2>Дезінсекція,</h2>
+                    <h2>Дератизація</h2>
+					<p>Знищемо всіх ворогів в вашому домашньому затишку</p>
+				</div>
+				<div class="col-md-4">
+					<img src="images/maskedman.png" class="aboutImage">
+					<h2>Професійна команда</h2>
+					<p>Наша команда має багато років досвіду в боротьбі з комахами,щурами та мишами</p>
+				</div>
+				<div class="col-md-4">
+					<img src="images/balloon.png" class="aboutImage">
+					<h2>Дезінфекція</h2>
+					<p>Знищемо грибок та плісняву</p>
+				</div>
+		  	</div>
+	  </div>
+	</div>
+	<div class="footer">
+	  <div class="container" style="margin-left: 0">
+		<p>&copy;Copyright 2018 by Alfadez. Всі права захищені.</p>
+	  </div>
+	</div>  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+	<script>
+	  $(function(){
+		  $('.carousel').carousel({
+			  interval: 10000
+		  });
+	  });
+	</script>
+  </body>
+</html>
